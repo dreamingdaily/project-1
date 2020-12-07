@@ -1,0 +1,61 @@
+.container
+{
+    width: 1024px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+header
+{
+    min-height: 100px;
+}
+
+main
+{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.hero1
+{
+    flex: 2;
+}
+
+.hero2
+{
+    flex: 1;
+}
+
+
+
+.cards
+{
+    background-color: rgb(71, 233, 57);
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card1
+{
+    background-color: rgb(201, 17, 130);
+    min-height: 300px;
+    width: 30%;
+}
+.card2
+{
+    background-color: rgb(245, 39, 166);
+    min-height: 300px;
+    width: 30%;
+}
+.card3
+{
+    background-color: rgb(114, 6, 73);
+    min-height: 300px;
+    width: 30%;
+}
+
+
+
