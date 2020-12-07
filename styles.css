@@ -1,3 +1,23 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* Not sure why this does not work. */
+
+/* html
+{
+    height: 100%;
+} */
+
+body
+{
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
 .container
 {
     width: 1024px;
@@ -7,8 +27,18 @@
 
 header
 {
-    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 main
 {
@@ -25,6 +55,16 @@ main
 .hero2
 {
     flex: 1;
+}
+
+.hero1 p
+{
+    max-width: 75%;
+}
+
+.hero2 img
+{
+    max-height: 200px;
 }
 
 
@@ -58,4 +98,19 @@ main
 }
 
 
+h1
+{
+    font-size: 3.75rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.45rem;
+}
 
+p
+{
+    line-height: 1.75rem;
+}
+
+.hero1 p 
+{
+    margin-bottom: 0.75rem;
+}
